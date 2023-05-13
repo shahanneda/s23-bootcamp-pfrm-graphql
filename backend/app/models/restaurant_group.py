@@ -17,4 +17,4 @@ class RestaurantGroup(mg.Document):
     restaurant_dict["id"] = str(id)
     return restaurant_dict
 
-  meta = {"collection": "restaurants"}
+  meta = {"collection": "restaurantsGroups"}
